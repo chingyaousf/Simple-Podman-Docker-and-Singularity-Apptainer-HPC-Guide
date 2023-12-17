@@ -1,0 +1,11 @@
+From: singularityhub/ubuntu
+
+%runscript
+export PATH=/usr/bin:$PATH
+cat /app/input/hello.txt
+
+%post
+mkdir /code
+
+%files
+app/input/hello.txt /app/input/hello.txt
