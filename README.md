@@ -28,9 +28,9 @@ or use it in HPC, following the demonstration in HPC.
 
 #### Example:
 
-**1. Create a Dockerfile** and an \`app/input\` folder containing the data \"hello, running Singularity with the file provided\" in the current same directory. Dockerfile \-- use text editor to create it but don\'t save it as .txt; save without file extension.
+**1. Create a Dockerfile** and an \`app/input\` folder containing the [hello.txt](https://github.com/chingyaousf/Simple-Podman-Docker-and-Singularity-Apptainer-HPC-Guide/blob/main/files/hello.txt) \"hello, running Singularity with the file provided\" in the current same directory. Dockerfile \-- use text editor to create it but don\'t save it as .txt; save without file extension.
 
-#### Dockerfile:
+#### [Dockerfile](https://github.com/chingyaousf/Simple-Podman-Docker-and-Singularity-Apptainer-HPC-Guide/blob/main/files/Dockerfile): 
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -102,9 +102,9 @@ Note: Running podman needs to be on root, not on a compute node.
 
 #### Example:
 
-**1. Create a podmanfile** and an \`app/input\` folder containing the data \"hello, running Singularity with the file provided\" in the current same directory. Podmanfile \-- use text editor to create it but don\'t save it as .txt; save without file extension.
+**1. Create a podmanfile** and an \`app/input\` folder containing the [hello.txt](https://github.com/chingyaousf/Simple-Podman-Docker-and-Singularity-Apptainer-HPC-Guide/blob/main/files/hello.txt) \"hello, running Singularity with the file provided\" in the current same directory. Podmanfile \-- use text editor to create it but don\'t save it as .txt; save without file extension.
 
-#### Podmanfile:
+#### [Podmanfile](https://github.com/chingyaousf/Simple-Podman-Docker-and-Singularity-Apptainer-HPC-Guide/blob/main/files/Podmanfile):
 
 (Same content as Dockerfile in the Docker example)
 
@@ -208,9 +208,9 @@ Singularity employs a different method, using a "**recipe**" file that defines t
 
 #### Example:
 
-**1. Create a recipe (.def file)** and an \`app/input\` folder containing the data \"hello, running Singularity with the file provided\" in the current same directory. def file \-- use text editor to create it and save it as .def.
+**1. Create a recipe (.def file)** and an \`app/input\` folder containing the [hello.txt](https://github.com/chingyaousf/Simple-Podman-Docker-and-Singularity-Apptainer-HPC-Guide/blob/main/files/hello.txt) \"hello, running Singularity with the file provided\" in the current same directory. def file \-- use text editor to create it and save it as .def.
 
-#### **Recipe:  hello.def**
+#### **Recipe:  [hello.def](https://github.com/chingyaousf/Simple-Podman-Docker-and-Singularity-Apptainer-HPC-Guide/blob/main/files/hello.def)**
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
