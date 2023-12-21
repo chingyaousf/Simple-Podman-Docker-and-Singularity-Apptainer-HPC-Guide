@@ -266,7 +266,7 @@ INFO:    Build complete: hello.sif  
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-The Image "hello.sif " is built.
+The Image "hello.sif" is built.
 
 **3. Run the container:**
 
@@ -416,7 +416,7 @@ sbatch \--output=output.txt \--wrap "apptainer exec sample_app_latest.sif cat /a
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-80027256\@red2 podman_example]\$ sbatch \--output=output.txt \--wrap "apptainer exec sample_app_latest.sif cat /app/input/hello.txt"
+80027256\@red2 podman_example]\$ sbatch --output=output.txt --wrap "apptainer exec sample_app_latest.sif cat /app/input/hello.txt"
 
 Submitted batch job 7698700
 
